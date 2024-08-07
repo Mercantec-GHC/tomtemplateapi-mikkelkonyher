@@ -1,2 +1,0 @@
-# empty
-Empty Classroom Project
