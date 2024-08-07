@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Miles95API",
   "resources": {
-    "hash": "sha256-2CPyusZK05dG6cjlYP+gEaSrVzKHTl1bmoxP+pgnOvg=",
+    "hash": "sha256-ha8+VRke9A4d1Ia3u32E2Gh6d2T44DL+zXs+VxCNBAI=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.q3ielwc6tw.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "Miles95API.wasm": "sha256-dq9r+/rgnzgZS2KOacLmJkvqcJP8ie0m7Xs7EN2k4/Q="
+      "Miles95API.wasm": "sha256-RZUtTq666TdfzPmy6nw7TesypO0npFji2/+0eyJ+pB8="
     },
     "pdb": {
-      "Miles95API.pdb": "sha256-rd/T48EbAyE9Rk4nLSjv3IMJX4OIihJA1wIhgjs1llM="
+      "Miles95API.pdb": "sha256-0595UmiPieOzRZ/MZjvXeQXVV9YENnLkeUiZZrNAW4o="
     }
   },
   "cacheBootResources": true,
