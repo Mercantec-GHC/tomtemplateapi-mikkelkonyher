@@ -2064,11 +2064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\Miles95API\\Miles95API\\Miles95API.csproj",
+      "projectUniqueName": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\Miles95API\\Miles95API.csproj",
       "projectName": "Miles95API",
-      "projectPath": "C:\\Users\\mikke\\RiderProjects\\Miles95API\\Miles95API\\Miles95API.csproj",
+      "projectPath": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\Miles95API\\Miles95API.csproj",
       "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikke\\RiderProjects\\Miles95API\\Miles95API\\obj\\",
+      "outputPath": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\Miles95API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config",
