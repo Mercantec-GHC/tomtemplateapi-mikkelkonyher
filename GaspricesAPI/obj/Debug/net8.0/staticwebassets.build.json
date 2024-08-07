@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fIP9H3OrkXKrVDapSEqZYx2r0e5CNN2TP11C2gTofkg=",
+  "Hash": "OyRRcpgXl2z+id/wJfB/aPzyEQ/ehCass2sf4CWaWYc=",
   "Source": "GaspricesAPI",
   "BasePath": "_content/GaspricesAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "GaspricesAPI\\wwwroot",
       "Source": "GaspricesAPI",
-      "ContentRoot": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\wwwroot\\",
       "BasePath": "_content/GaspricesAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GaspricesAPI.styles.css",
+      "Identity": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GaspricesAPI.styles.css",
       "SourceId": "GaspricesAPI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GaspricesAPI",
       "RelativePath": "GaspricesAPI.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GaspricesAPI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GaspricesAPI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GaspricesAPI.bundle.scp.css",
+      "Identity": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GaspricesAPI.bundle.scp.css",
       "SourceId": "GaspricesAPI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GaspricesAPI",
       "RelativePath": "GaspricesAPI.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GaspricesAPI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GaspricesAPI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\wwwroot\\app.css",
       "SourceId": "GaspricesAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\wwwroot\\",
       "BasePath": "_content/GaspricesAPI",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "GaspricesAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\wwwroot\\",
       "BasePath": "_content/GaspricesAPI",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "GaspricesAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\wwwroot\\",
       "BasePath": "_content/GaspricesAPI",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\wwwroot\\favicon.png",
       "SourceId": "GaspricesAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\wwwroot\\",
       "BasePath": "_content/GaspricesAPI",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

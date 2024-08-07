@@ -27,3 +27,33 @@ C:\Users\mikke\RiderProjects\GaspricesAPI\GaspricesAPI\obj\Debug\net8.0\refint\G
 C:\Users\mikke\RiderProjects\GaspricesAPI\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.pdb
 C:\Users\mikke\RiderProjects\GaspricesAPI\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.genruntimeconfig.cache
 C:\Users\mikke\RiderProjects\GaspricesAPI\GaspricesAPI\obj\Debug\net8.0\ref\GaspricesAPI.dll
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.AssemblyInfoInputs.cache
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.AssemblyInfo.cs
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.csproj.CoreCompileInputs.cache
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.sourcelink.json
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.dll
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\refint\GaspricesAPI.dll
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.pdb
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\bin\Debug\net8.0\GaspricesAPI.staticwebassets.runtime.json
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\bin\Debug\net8.0\GaspricesAPI.exe
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\bin\Debug\net8.0\GaspricesAPI.deps.json
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\bin\Debug\net8.0\GaspricesAPI.runtimeconfig.json
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\bin\Debug\net8.0\GaspricesAPI.dll
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\bin\Debug\net8.0\GaspricesAPI.pdb
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\staticwebassets\msbuild.GaspricesAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.GaspricesAPI.props
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GaspricesAPI.props
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GaspricesAPI.props
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\scopedcss\bundle\GaspricesAPI.styles.css
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\scopedcss\projectbundle\GaspricesAPI.bundle.scp.css
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\GaspricesAPI.genruntimeconfig.cache
+C:\Users\mikke\Desktop\Visual Studio\tomtemplateapi-mikkelkonyher\GaspricesAPI\obj\Debug\net8.0\ref\GaspricesAPI.dll
