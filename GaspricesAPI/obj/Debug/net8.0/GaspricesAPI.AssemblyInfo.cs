@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GaspricesAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5e020371f48b86b15df6d734770877a5c4bbb1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GaspricesAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GaspricesAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\GaspricesAPI.csproj": {}
+    "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\GaspricesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\GaspricesAPI.csproj": {
+    "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\GaspricesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\GaspricesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\GaspricesAPI.csproj",
         "projectName": "GaspricesAPI",
-        "projectPath": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\GaspricesAPI.csproj",
+        "projectPath": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\GaspricesAPI.csproj",
         "packagesPath": "C:\\Users\\mikke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikke\\RiderProjects\\GaspricesAPI\\GaspricesAPI\\obj\\",
+        "outputPath": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\GaspricesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikke\\AppData\\Roaming\\NuGet\\NuGet.Config",
