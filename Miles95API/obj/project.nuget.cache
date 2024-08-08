@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VQH3ACfPgGo=",
+  "dgSpecHash": "1fsU3cJQ3qo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikke\\RiderProjects\\Miles95API\\Miles95API\\Miles95API.csproj",
+  "projectFilePath": "C:\\Users\\mikke\\Desktop\\Visual Studio\\tomtemplateapi-mikkelkonyher\\Miles95API\\Miles95API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikke\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.7\\microsoft.aspnetcore.authorization.8.0.7.nupkg.sha512",
     "C:\\Users\\mikke\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.7\\microsoft.aspnetcore.components.8.0.7.nupkg.sha512",
