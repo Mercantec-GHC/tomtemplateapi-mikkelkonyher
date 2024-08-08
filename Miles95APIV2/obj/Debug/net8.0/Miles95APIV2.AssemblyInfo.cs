@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Miles95APIV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d958a23abd0186905ed7b8d699fa1e8aafb72001")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55040189d938908ec7159627abc5f439925a8ae4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Miles95APIV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Miles95APIV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

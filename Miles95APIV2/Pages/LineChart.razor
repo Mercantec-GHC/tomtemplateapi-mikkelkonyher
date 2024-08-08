@@ -56,14 +56,14 @@ else
     
     
     //Metoden kaldes når komponentet (LineChart.razor) initialiseres.
-    // Protected betyder at den kun tilgængelig inden for den klasse hvor det defineret og klasser der nedarver derfra.
+    // Protected betyder, at den kun er tilgængelig inden for denne klasse og klasser, der nedarver fra den.
     //Async indikere at metoden indeholder asynkron kode. 
     // Override sørger for at man kan overskrive metoder i baseklassen fx. OnInitializedAsync
     // Task betyder at metoden kan udføre en asynkron handling
     protected override async Task OnInitializedAsync()
     {
         
-        //await venter på at opgaven/Task der håndterer et array af GasPrices.
+        //await venter på at opgaven/Task der håndterer et array af GasPrices, er færdig.
         // Http er en instans af HttpClient, som er blevet injiceret i Blazor-komponenten. Bruges til request og reponse.
         // GetFromJsonAsync Sender Get request og deserialiserer svaret til et array af GasPrices objekter.
         miles95Price = await Http.GetFromJsonAsync<GasPrices[]>("https://magsapi.onrender.com/api/miles95");
