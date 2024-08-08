@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Miles95APIV2.props" />
+</Project>
