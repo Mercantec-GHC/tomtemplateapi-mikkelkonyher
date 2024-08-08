@@ -1,5 +1,5 @@
 ﻿@page "/LineChart"
-@inject HttpClient Http
+@inject HttpClient Http 
 
 
 <PageTitle>Miles95 API</PageTitle>
@@ -16,38 +16,56 @@
 }
 else
 {
-    <ApexChart TItem="GasPrices"
-               Title="Miles95 & Diesel price">
+    
+    //Apex Chart Link til dokumentation:
+    // https://apexcharts.github.io/Blazor-ApexCharts/line-charts
+  
+    // Installation:
+    // https://www.nuget.org/packages/Blazor-ApexCharts/#readme-body-tab
+    
+    <div class="container" style="width: 80%; max-width: 1200px;" >
+        <ApexChart TItem="GasPrices"
+                   Title="Miles95 & Diesel price">
 
-        <ApexPointSeries TItem="GasPrices"
-                         Items="miles95Price"
-                         Name="Miles95 Price"
-                         SeriesType="SeriesType.Line"
-                         XValue="e => e.Date"
-                         YValue="e => e.Price" />
+            <ApexPointSeries TItem="GasPrices"
+                             Items="miles95Price"
+                             Name="Miles95 Price"
+                             SeriesType="SeriesType.Line"
+                             XValue="e => e.Date"
+                             YValue="e => e.Price" />
 
-        <ApexPointSeries TItem="GasPrices"
-                         Items="dieselPrice"
-                         Name="Diesel Price"
-                         SeriesType="SeriesType.Line"
-                         XValue="e => e.Date"
-                         YValue="e => e.Price" />
+            <ApexPointSeries TItem="GasPrices"
+                             Items="dieselPrice"
+                             Name="Diesel Price"
+                             SeriesType="SeriesType.Line"
+                             XValue="e => e.Date"
+                             YValue="e => e.Price" />
         
-    </ApexChart>
+        </ApexChart>
+    
+        </div>
 }
 
 @code {
     
     //Private betyder at variablen kun kan tilgås i klassen
-    //Deklarerer et array af Miles95 objekter. "?" indikerer at arrayet kan være null.
+    //Deklarerer et array af GasPrices objekter. "?" indikerer at arrayet kan være null.
     // miles95Price/dieselPrice er den variabel der holder arrayet af objekter.
     private GasPrices[]? miles95Price;
     private GasPrices[]? dieselPrice;
     
-    // 
-
+    
+    //Metoden kaldes når komponentet (LineChart.razor) initialiseres.
+    // Protected betyder at den kun tilgængelig inden for den klasse hvor det defineret og klasser der nedarver derfra.
+    //Async indikere at metoden indeholder asynkron kode. 
+    // Override sørger for at man kan overskrive metoder i baseklassen fx. OnInitializedAsync
+    // Task betyder at metoden kan udføre en asynkron handling
     protected override async Task OnInitializedAsync()
     {
+        
+        //await venter på at opgaven/Task der håndterer et array af GasPrices.
+        // Http er en instans af HttpClient, som er blevet injiceret i Blazor-komponenten. Bruges til request og reponse.
+        // GetFromJsonAsync Sender Get request og deserialiserer svaret til et array af GasPrices objekter.
         miles95Price = await Http.GetFromJsonAsync<GasPrices[]>("https://magsapi.onrender.com/api/miles95");
         dieselPrice = await Http.GetFromJsonAsync<GasPrices[]>("https://magsapi.onrender.com/api/diesel");
     }
