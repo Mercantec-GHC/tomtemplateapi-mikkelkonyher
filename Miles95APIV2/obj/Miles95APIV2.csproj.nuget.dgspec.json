@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mhk/RiderProjects/Miles95APIV2/Miles95APIV2/Miles95APIV2.csproj": {}
+    "/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/Miles95APIV2.csproj": {}
   },
   "projects": {
-    "/Users/mhk/RiderProjects/Miles95APIV2/Miles95APIV2/Miles95APIV2.csproj": {
+    "/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/Miles95APIV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mhk/RiderProjects/Miles95APIV2/Miles95APIV2/Miles95APIV2.csproj",
+        "projectUniqueName": "/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/Miles95APIV2.csproj",
         "projectName": "Miles95APIV2",
-        "projectPath": "/Users/mhk/RiderProjects/Miles95APIV2/Miles95APIV2/Miles95APIV2.csproj",
+        "projectPath": "/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/Miles95APIV2.csproj",
         "packagesPath": "/Users/mhk/.nuget/packages/",
-        "outputPath": "/Users/mhk/RiderProjects/Miles95APIV2/Miles95APIV2/obj/",
+        "outputPath": "/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mhk/.nuget/NuGet/NuGet.Config"
