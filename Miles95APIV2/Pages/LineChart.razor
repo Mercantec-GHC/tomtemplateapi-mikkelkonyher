@@ -4,11 +4,11 @@
 
 <PageTitle>Miles95 API</PageTitle>
 
-<h1>Miles 95 Line Chart</h1>
+<h1>Gasoline Prices</h1>
 
-<p>Miles95 prices from 2015-2023</p>
 
-@if (miles95Price == null)
+
+@if (miles95Price == null || dieselPrice == null)
 {
     <p>
         <em>Loading...</em>
@@ -16,16 +16,22 @@
 }
 else
 {
-    <ApexChart TItem="Miles95"
-               Title="Sample Data">
+    <ApexChart TItem="GasPrices"
+               Title="Miles95 & Diesel price">
 
-        <ApexPointSeries TItem="Miles95"
+        <ApexPointSeries TItem="GasPrices"
                          Items="miles95Price"
-                         Name="Net Profit"
+                         Name="Miles95 Price"
                          SeriesType="SeriesType.Line"
                          XValue="e => e.Date"
-                         YValue="e=> e.Price" />
+                         YValue="e => e.Price" />
 
+        <ApexPointSeries TItem="GasPrices"
+                         Items="dieselPrice"
+                         Name="Diesel Price"
+                         SeriesType="SeriesType.Line"
+                         XValue="e => e.Date"
+                         YValue="e => e.Price" />
         
     </ApexChart>
 }
@@ -34,17 +40,19 @@ else
     
     //Private betyder at variablen kun kan tilgås i klassen
     //Deklarerer et array af Miles95 objekter. "?" indikerer at arrayet kan være null.
-    // miles95Price er den variabel der holder arrayet af objekter.
-    private Miles95[]? miles95Price;
+    // miles95Price/dieselPrice er den variabel der holder arrayet af objekter.
+    private GasPrices[]? miles95Price;
+    private GasPrices[]? dieselPrice;
     
     // 
 
     protected override async Task OnInitializedAsync()
     {
-        miles95Price = await Http.GetFromJsonAsync<Miles95[]>("https://magsapi.onrender.com/api/miles95");
+        miles95Price = await Http.GetFromJsonAsync<GasPrices[]>("https://magsapi.onrender.com/api/miles95");
+        dieselPrice = await Http.GetFromJsonAsync<GasPrices[]>("https://magsapi.onrender.com/api/diesel");
     }
 
-    public class Miles95
+    public class GasPrices
     {
         public decimal Price { get; set; }
         public DateTime Date { get; set; }

@@ -36,6 +36,31 @@ else
         }
         </tbody>
     </table>
+    
+    <table class="tableDiesel">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Price in $</th>
+          
+        </tr>
+        </thead>
+        
+        <tbody>
+        @foreach (var dieselData in dieselPrice)
+        {
+            <tr>
+                <td>@dieselData.Date</td>
+                <td>@dieselData.Price</td>
+                
+               
+            </tr>
+        }
+        </tbody>
+    </table>
+    
+    
+    
 }
 
 @code {
@@ -44,12 +69,14 @@ else
     //Deklarerer et array af Miles95 objekter. "?" indikerer at arrayet kan være null.
     // miles95Price er den variabel der holder arrayet af objekter.
     private Miles95[]? miles95Price;
+    private Diesel[]? dieselPrice;
     
     // 
 
     protected override async Task OnInitializedAsync()
     {
         miles95Price = await Http.GetFromJsonAsync<Miles95[]>("https://magsapi.onrender.com/api/miles95");
+        dieselPrice = await Http.GetFromJsonAsync<Diesel[]>("https://magsapi.onrender.com/api/diesel");
     }
 
     public class Miles95
@@ -57,6 +84,15 @@ else
         public decimal Price { get; set; }
         public DateTime Date { get; set; }
 
+    }
+    
+
+    
+ 
+    public class Diesel
+    {
+        public string Price { get; set; }
+        public string Date { get; set; }
     }
 
 }
