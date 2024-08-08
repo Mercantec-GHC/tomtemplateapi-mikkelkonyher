@@ -2061,3 +2061,8 @@
 /Users/mhk/Desktop/H2/APIH2/Miles95APIV2/obj/Debug/net8.0/refint/Miles95APIV2.dll
 /Users/mhk/Desktop/H2/APIH2/Miles95APIV2/obj/Debug/net8.0/Miles95APIV2.pdb
 /Users/mhk/Desktop/H2/APIH2/Miles95APIV2/obj/Debug/net8.0/ref/Miles95APIV2.dll
+/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/bin/Debug/net8.0/wwwroot/_framework/Blazor-ApexCharts.wasm
+/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/bin/Debug/net8.0/wwwroot/_framework/Blazor-ApexCharts.wasm.gz
+/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/bin/Debug/net8.0/Blazor-ApexCharts.dll
+/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/obj/Debug/net8.0/webcil/Blazor-ApexCharts.wasm
+/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/obj/Debug/net8.0/compressed/919g2iad7i.gz

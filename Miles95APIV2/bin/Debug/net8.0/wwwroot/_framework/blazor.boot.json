@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Miles95APIV2",
   "resources": {
-    "hash": "sha256-YvScLbnmc15wxcFdaxCzHTJ3jIR/VCoNy46Gd6AzkDc=",
+    "hash": "sha256-0qDLB0hR6BG2vlBBw1G4PlvWC75NmaVNtevcrX/SqTU=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.u3l0ohyou0.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -17,6 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
+      "Blazor-ApexCharts.wasm": "sha256-4mV9xovVFn4rxtiMOitQWW5ivJikWhYJr0+p/VThLA0=",
       "Microsoft.AspNetCore.Authorization.wasm": "sha256-OLGFBcpljsXLhIaQF0m6arMwqtgxgm6RbZTaO8tfkRU=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-+8HtAi0ng5YbjkbeE5qEZU5ga1uH7+yDBrpxerkI1G4=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-CMRkrzCDzgX1XUEE5PWWJ6Q9JsVt/StuycyytVANvQ8=",
@@ -208,10 +209,10 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "Miles95APIV2.wasm": "sha256-HgCqTnzg5djCvXNTiUbl3Ui0ZQnH1fZJ8UjxenwYA0g="
+      "Miles95APIV2.wasm": "sha256-9rIxb4SS5dL6C9f3igzAev55nU/+b7gwgDgl8A5PpxA="
     },
     "pdb": {
-      "Miles95APIV2.pdb": "sha256-ULmVqYwX0nOrn8fAtykJ7vKfwgYGWPfoAMWMcQJ8iXY="
+      "Miles95APIV2.pdb": "sha256-u/50BAd+gKiveYAqZX/DUAQ+r3vEDyIMbQu4gZgwImQ="
     }
   },
   "cacheBootResources": true,

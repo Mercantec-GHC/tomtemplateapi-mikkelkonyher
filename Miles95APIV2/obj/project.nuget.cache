@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WbuUt3iApiJPGJTsRgK6Z+IdcC0bwq0Bef8FUdg1aXm9kbBkyUMiwtyLKMvJTSzdYoQIRRvtayq7ZS3nDQhnXw==",
+  "dgSpecHash": "IRcESBb40TrmlbQWsXoQaOPyiZ/pNkabX9RVBVEjFYBtgYcrXxmMYv0deQgfv5hsEDDriLirJPt6LkeMAjLoLA==",
   "success": true,
   "projectFilePath": "/Users/mhk/Desktop/H2/APIH2/Miles95APIV2/Miles95APIV2.csproj",
   "expectedPackageFiles": [
+    "/Users/mhk/.nuget/packages/blazor-apexcharts/3.4.0/blazor-apexcharts.3.4.0.nupkg.sha512",
     "/Users/mhk/.nuget/packages/microsoft.aspnetcore.authorization/8.0.5/microsoft.aspnetcore.authorization.8.0.5.nupkg.sha512",
     "/Users/mhk/.nuget/packages/microsoft.aspnetcore.components/8.0.5/microsoft.aspnetcore.components.8.0.5.nupkg.sha512",
     "/Users/mhk/.nuget/packages/microsoft.aspnetcore.components.analyzers/8.0.5/microsoft.aspnetcore.components.analyzers.8.0.5.nupkg.sha512",

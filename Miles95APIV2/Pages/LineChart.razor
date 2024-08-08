@@ -1,0 +1,54 @@
+﻿@page "/LineChart"
+@inject HttpClient Http
+
+
+<PageTitle>Miles95 API</PageTitle>
+
+<h1>Miles 95 Line Chart</h1>
+
+<p>Miles95 prices from 2015-2023</p>
+
+@if (miles95Price == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <ApexChart TItem="Miles95"
+               Title="Sample Data">
+
+        <ApexPointSeries TItem="Miles95"
+                         Items="miles95Price"
+                         Name="Net Profit"
+                         SeriesType="SeriesType.Line"
+                         XValue="e => e.Date"
+                         YValue="e=> e.Price" />
+
+        
+    </ApexChart>
+}
+
+@code {
+    
+    //Private betyder at variablen kun kan tilgås i klassen
+    //Deklarerer et array af Miles95 objekter. "?" indikerer at arrayet kan være null.
+    // miles95Price er den variabel der holder arrayet af objekter.
+    private Miles95[]? miles95Price;
+    
+    // 
+
+    protected override async Task OnInitializedAsync()
+    {
+        miles95Price = await Http.GetFromJsonAsync<Miles95[]>("https://magsapi.onrender.com/api/miles95");
+    }
+
+    public class Miles95
+    {
+        public decimal Price { get; set; }
+        public DateTime Date { get; set; }
+
+    }
+
+}

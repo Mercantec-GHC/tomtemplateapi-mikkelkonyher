@@ -1,9 +1,9 @@
-﻿@page "/GasPrice"
+﻿@page "/Table"
 @inject HttpClient Http
 
 <PageTitle>Miles95 API</PageTitle>
 
-<h1>Miles 95 API</h1>
+<h1>Miles 95 Table</h1>
 
 <p>Miles95 prices from 2015-2023</p>
 
@@ -39,7 +39,13 @@ else
 }
 
 @code {
+    
+    //Private betyder at variablen kun kan tilgås i klassen
+    //Deklarerer et array af Miles95 objekter. "?" indikerer at arrayet kan være null.
+    // miles95Price er den variabel der holder arrayet af objekter.
     private Miles95[]? miles95Price;
+    
+    // 
 
     protected override async Task OnInitializedAsync()
     {
