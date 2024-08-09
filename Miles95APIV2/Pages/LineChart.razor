@@ -31,15 +31,15 @@ else
                              Items="miles95Price"
                              Name="Miles95 Price"
                              SeriesType="SeriesType.Line"
-                             XValue="e => e.Date"
-                             YValue="e => e.Price" />
+                             XValue="gp => gp.Date.ToShortDateString()" 
+                             YValue="gp => gp.Price" />
 
             <ApexPointSeries TItem="GasPrices"
                              Items="dieselPrice"
                              Name="Diesel Price"
                              SeriesType="SeriesType.Line"
-                             XValue="e => e.Date"
-                             YValue="e => e.Price" />
+                             XValue="gp => gp.Date.ToShortDateString()"
+                             YValue="gp => gp.Price" />
         
         </ApexChart>
     
@@ -48,8 +48,8 @@ else
 
 @code {
     
-    //Private betyder at variablen kun kan tilgås i klassen
     //Deklarerer et array af GasPrices objekter. "?" indikerer at arrayet kan være null.
+    //Private betyder at variablen kun kan tilgås i klassen
     // miles95Price/dieselPrice er den variabel der holder arrayet af objekter.
     private GasPrices[]? miles95Price;
     private GasPrices[]? dieselPrice;
@@ -57,17 +57,18 @@ else
     
     //Metoden kaldes når komponentet (LineChart.razor) initialiseres.
     // Protected betyder, at den kun er tilgængelig inden for denne klasse og klasser, der nedarver fra den.
-    //Async indikere at metoden indeholder asynkron kode. 
+    //Async indikerer at metoden indeholder asynkron kode. 
     // Override sørger for at man kan overskrive metoder i baseklassen fx. OnInitializedAsync
-    // Task betyder at metoden kan udføre en asynkron handling
+    // Task betyder at metoden kan udfører en asynkron handling
+    //https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/
     protected override async Task OnInitializedAsync()
     {
         
         //await venter på at opgaven/Task der håndterer et array af GasPrices, er færdig.
         // Http er en instans af HttpClient, som er blevet injiceret i Blazor-komponenten. Bruges til request og reponse.
         // GetFromJsonAsync Sender Get request og deserialiserer svaret til et array af GasPrices objekter.
-        miles95Price = await Http.GetFromJsonAsync<GasPrices[]>("https://magsapi.onrender.com/api/miles95");
-        dieselPrice = await Http.GetFromJsonAsync<GasPrices[]>("https://magsapi.onrender.com/api/diesel");
+        miles95Price = await Http.GetFromJsonAsync<GasPrices[]>("/api/miles95");
+        dieselPrice = await Http.GetFromJsonAsync<GasPrices[]>("/api/diesel");
     }
 
     public class GasPrices
